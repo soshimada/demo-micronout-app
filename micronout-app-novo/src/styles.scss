@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+.title {
+  background-color: rgb(156, 39, 176);
+  margin-bottom: 20px;
+}
+.icon {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.container {
+  padding: 20px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container-button {
+  display: flex;
+  width: 100%;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.card {
+  background-color: rgb(60, 60, 60);
+  padding: 20px 20px;
+}
+.form-input {
+  display: grid;
+  width: 100%;
+}
